@@ -17,7 +17,7 @@ h5,
 h6,
 p,
 {
-  margin: 0px;
+  margin: 0;
 }
 
 img {
@@ -247,10 +247,46 @@ gap: 24px;
 /*---1-LI---*/
 .li-one {
 }
+
+.li-one-svg{
+  background-color: #F4F4FD;
+  background-image: url(../images/index-icons/group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.li-two-svg{
+  background-color: #F4F4FD;
+    background-image: url(../images/index-icons/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.li-three-svg{
+  background-color: #F4F4FD;
+  background-image: url(../images/index-icons/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.li-four-svg{
+  background-color: #F4F4FD;
+  background-image: url(../images/index-icons/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
 /*---H3---*/
 .h-li-one {
   margin: 0px;
-
 }
 
 /*---P---*/
@@ -360,6 +396,16 @@ gap: 24px;
   margin-top: 8px;
 }
 
+
+/*---div---h3---p---ul---*/
+.mark-div-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 .sectionfour-li {
 text-align: center;
 background-color: #FFFFFF;
@@ -367,11 +413,47 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   border-radius: 0px 0px 4px 4px;
 }
 
+/*---UL-SVG----IKONKI----*/
+.social-svg-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+padding-bottom: 32px;
+}
+
+/*========LI------------*/
+.social-svg-li{
+    height: 40px;
+      width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*------A-------*/
+.a-social-svg{
+  height: 100%;
+  width: 100%;
+    border-radius: 50%;
+background-color: #4D5AE5;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*----HOVER---*/
+.a-social-svg:hover {
+  background-color: #404BBF;
+}
+/*---FOCUS---*/
+.a-social-svg:focus {
+  background-color: #404BBF;
+}
 
 /*=============FOOTER==================*/
 
 .fon-footer {
-  width: 1440px;
   height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -382,9 +464,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   box-sizing: border-box;
 
 }
+
 .footer-div {
   width: 264px;
     margin-left: 156px; 
+    display: inline-block;
 }
 
 /*---footer text---*/
@@ -396,6 +480,36 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 /*---Footer logo---*/
 .logo-footer {
 }
+
+/*------svg---block---*/
+.svg-footer-index{
+  background-color: #f4f4fd;
+display: inline-block;
+margin-left: 120px;
+}
+
+
+
+.second-div-footer{
+  width: 208px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*==========================================*/
 
 /*sekcia 1 h*/
@@ -612,3 +726,16 @@ margin: 0 auto;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+h2{
+  margin: 0;
+}
+
+.div-twoo-footer{
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.h-two-svg-footer{
+margin-bottom: 16px;
+}
+
