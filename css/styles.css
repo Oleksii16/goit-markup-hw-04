@@ -184,6 +184,11 @@ text-decoration: none;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/section2/index-section-one.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*---div---*/
