@@ -451,6 +451,64 @@ justify-content: center;
   background-color: #404BBF;
 }
 
+/*--------SEKCIA 5-----------*/
+.section-five-index{
+  padding-top: 63px;
+  padding-bottom: 177px;
+}
+
+/*---H2 section5---*/
+.h-two-section-five{
+font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/*---ul sekcia 5---*/
+.ul-section-five{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 24px;
+}
+
+/*---vse li sekcia 5---*/
+.li-section-five{
+border: 1px solid #8E8F99;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.li-section-five:hover{
+
+}
+
+.li-section-five:hover > .svg-svg{
+  fill: #404bbf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=============FOOTER==================*/
 
 .fon-footer {
@@ -471,10 +529,10 @@ justify-content: center;
     display: inline-block;
 }
 
-/*---footer text---*/
+/*---footer---P---text---*/
 .footer-text {
   margin-top: 16px;
-
+color: #F4F4FD;
 }
 
 /*---Footer logo---*/
@@ -492,7 +550,14 @@ margin-left: 120px;
 
 .second-div-footer{
   width: 208px;
-
+}
+/*---FOOTER--IKONKI--SOCIAL---*/
+.social-svg-icons-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  /*padding-bottom: 32px;*/
 }
 
 
@@ -737,5 +802,13 @@ h2{
 
 .h-two-svg-footer{
 margin-bottom: 16px;
+font-weight: 500;
+color: #FFFFFF;
+letter-spacing: 0.02em;
+line-height: 1.5;
 }
 
+.div-flex{
+  display: flex;
+  align-items: flex-start;
+}
