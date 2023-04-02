@@ -101,6 +101,11 @@ margin-right: auto;
 .header-div {
 display: flex;
 align-items: center;
+
+border-bottom: 1px solid #E7E9FC;
+
+
+
 }
 
 /*---adress-header---index---*/
@@ -481,14 +486,43 @@ border: 1px solid #8E8F99;
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 .li-section-five:hover{
-
+fill: #4D5AE5;
 }
-
+.li-section-five:focus {
+  fill: #4D5AE5
+}
+/*---cvet kartinke---*/
+.svg-svg{
+fill: #8E8F99;
+}
+/*---cvet hover---*/
 .li-section-five:hover > .svg-svg{
-  fill: #404bbf;
+fill: #4D5AE5;
 }
+
+
+/*------A-------*/
+.a-social-svg-footer {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*----HOVER---*/
+.a-social-svg-footer:hover {
+  background-color: #31D0AA;
+}
+
+/*---FOCUS---*/
+.a-social-svg-footer:focus {
+  background-color: #31D0AA;
+}
+
 
 
 
