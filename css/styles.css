@@ -216,6 +216,9 @@ text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 /*---div---*/
