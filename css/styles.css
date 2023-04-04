@@ -277,7 +277,7 @@ gap: 24px;
 /*---1-LI---*/
 .li-one {
 }
-
+/*
 .li-one-svg{
   background-color: #F4F4FD;
   background-image: url(../images/index-icons/group.svg);
@@ -303,9 +303,38 @@ gap: 24px;
   background-image: url(../images/index-icons/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
+}*/
+
+
+/*-----sekcia 2 1 li div---*/
+.div-li-one-svg {
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: #F4F4FD;
+margin-bottom: 8px;
+width: 264px;
+height: 112px;
+}
+/*---svg li 1 ------*/
+.svg-antena {
+
+
+
+
+}
+.use-index-antena {
+
 }
 
+/*width="64" height="64"*/
 
+
+.use-section-five{
+  width: 16px;
+  height: 16px;
+
+}
 
 
 
@@ -518,7 +547,7 @@ gap: 24px;
 }
 
 /*---vse li sekcia 5---*/
-.li-section-five{
+/*.li-section-five{
 border: 1px solid #8E8F99;
   border-radius: 4px;
   background-repeat: no-repeat;
@@ -538,6 +567,7 @@ fill: #8E8F99;
 .li-section-five:hover > .svg-svg{
 fill: #4D5AE5;
 }
+
 
 
 /*------A-------*/
