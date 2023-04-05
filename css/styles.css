@@ -327,7 +327,7 @@ height: 112px;
 
 }
 
-/*width="64" height="64"*/
+/*widht="64" height="64"*/
 
 
 
@@ -446,22 +446,13 @@ gap: 24px;
 }
 
 /*---VSE P V SEKCII 4---*/
-.p-section-four {
-  margin-top: 8px;
-}
 
 
-/*---div---h3---p---ul---*/
-.mark-div-svg{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+
 /*---div sektion 4 dla H3 i P---*/
 .div-four-section-index {
   padding-top: 32px;
-  padding-bottom: 8px;
+  padding-bottom: 32px;
 }
 
 
@@ -486,16 +477,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   align-items: center;
   justify-content: center;
   gap: 24px;
-padding-bottom: 32px;
+  margin-top: 8px;
 }
 
 /*========LI------------*/
 .social-svg-li{
     height: 40px;
       width: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
 }
 
 /*------A-------*/
@@ -521,50 +509,49 @@ fill: #F4F4FD;
 
 /*--------SEKCIA 5-----------*/
 .section-five-index{
-  padding-top: 63px;
-  padding-bottom: 177px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*---H2 section5---*/
 .h-two-section-five{
 font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11px;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 /*---ul sekcia 5---*/
 .ul-section-five{
 display: flex;
-flex-direction: row;
-justify-content: center;
 gap: 24px;
 }
 
-/*---vse li sekcia 5---*/
-/*.li-section-five{
-border: 1px solid #8E8F99;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center center;
+
+/*---a sekction 5---*/
+.a-section-five-svg {
+display: flex;
+justify-content: center;
+align-items: center;
+  height: 68px;
+  width: 186px;
+    border: 1px solid #8E8F99;
+      border-radius: 4px;
+      fill:#8E8F99;;
 }
-.li-section-five:hover{
+.a-section-five-svg:hover {
 fill: #4D5AE5;
 }
-.li-section-five:focus {
-  fill: #4D5AE5
+.a-section-five-svg:focus {
+  fill: #4D5AE5;
 }
-/*---cvet kartinke---*/
-.svg-svg{
-fill: #8E8F99;
-border: 1px solid #8E8F99;
-border-radius: 4px;
-}
-/*---cvet hover---*/
-.li-section-five:hover > .svg-svg{
-fill: #4D5AE5;
-}
+/*-------------------*/
+
+
+
 
 
 
@@ -764,6 +751,7 @@ color: #2e2f42;
   line-height: 1.5;
 letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 8px;
 }
 /*3 sekcia*/
 /*.sectionthreeindex{
@@ -819,13 +807,6 @@ background-color: #F4F4FD;
 :root {
   css declarations;
 }
-
-/*.container {
-  width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}*/
 
 
 /*==================PORTFOLIO======================*/
