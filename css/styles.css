@@ -512,6 +512,7 @@ background-color: #4D5AE5;
     display: flex;
 align-items: center;
 justify-content: center;
+fill: #F4F4FD;
 }
 
 /*----HOVER---*/
@@ -562,6 +563,8 @@ fill: #4D5AE5;
 /*---cvet kartinke---*/
 .svg-svg{
 fill: #8E8F99;
+border: 1px solid #8E8F99;
+border-radius: 4px;
 }
 /*---cvet hover---*/
 .li-section-five:hover > .svg-svg{
@@ -579,6 +582,7 @@ fill: #4D5AE5;
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #F4F4FD;
 }
 
 /*----HOVER---*/
@@ -656,14 +660,16 @@ margin-left: 120px;
 .second-div-footer{
   width: 208px;
 }
-/*---FOOTER--IKONKI--SOCIAL---*/
+/*---UL footer svg ikonki---*/
 .social-svg-icons-footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
+  
   /*padding-bottom: 32px;*/
 }
+
 
 
 
