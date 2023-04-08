@@ -119,8 +119,6 @@ margin-right: auto;
 .header-div {
 display: flex;
 align-items: center;
-
-border-bottom: 1px solid #E7E9FC;
 }
 
 /*---adress-header---index---*/
